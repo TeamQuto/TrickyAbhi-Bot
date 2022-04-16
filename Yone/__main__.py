@@ -92,7 +92,7 @@ I have lots of handy features such as:
 ‣ Note keeping system
 ‣ Filters keeping system
 ‣ Approvals and much more.
-
+⚡ Powered by @YourX 😎
 So what are you waiting for?
 *Add me in your groups and give me full rights to make me function well.*
 """
@@ -240,10 +240,7 @@ def yone_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="https://t.me/TrickyAbhii_Op"),
-                     InlineKeyboardButton(text="News", url="https://t.me/Techno_Trickop"),
-                   ],
-                   [
+                     
                     InlineKeyboardButton(text="Back", callback_data="yone_back")
                    ]
                 ]
